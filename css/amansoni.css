@@ -53,10 +53,13 @@ h6, .h6 {
  */
 
 .container {
-  max-width: 60rem;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
-
-
 /*
  * Masthead for nav
  */
